@@ -526,9 +526,9 @@
   // Please refine the PID settings for your own machine to avoid the E1 hotend error. These a basic settings allowing first startups.
   // Use the command M303 E0 S200 C8 each time you make any changes to your extruder
 
-  #define DEFAULT_Kp 17.22
-  #define DEFAULT_Ki 1.00
-  #define DEFAULT_Kd 74.22
+  #define DEFAULT_Kp 25.31
+  #define DEFAULT_Ki 1.85
+  #define DEFAULT_Kd 85.12
 
 
   // MakerGear
@@ -590,9 +590,9 @@
 
 #if defined(U30) || defined(LK2) || defined(LK4)
   //From M303 command for Alfawise U30 :
-  #define DEFAULT_bedKp 338.46
-  #define DEFAULT_bedKi 63.96
-  #define DEFAULT_bedKd 447.78
+  #define DEFAULT_bedKp 52.91
+  #define DEFAULT_bedKi 10.31
+  #define DEFAULT_bedKd 180.98
 #endif
 
 #if defined(U20) || defined(LK1)
